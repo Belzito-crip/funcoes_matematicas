@@ -25,7 +25,7 @@ while (opcao !== 0) {
         `
     );
 
-    opcao = parseInt(prompt('Escolha a operação: '));w
+    opcao = parseInt(prompt('Escolha a operação: '));
     if(opcao === 0){
         return
     }
