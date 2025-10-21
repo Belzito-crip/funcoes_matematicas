@@ -1,15 +1,5 @@
-const {
-    somar,
-    multiplicar,
-    subtrair,
-    dividir
-} = require('./operacoes_matematicas');
+const { somar, multiplicar, subtrair, dividir } = require('./operacoes_matematicas');
 const prompt = require('prompt-sync')({ sigint: true });
-
-// console.log(somar(10, 5));
-// console.log(multiplicar(10, 5));
-// console.log(subtrair(52, 8));
-// console.log(dividir(52, 6));
 
 let opcao = -1;
 let a, b = 0
@@ -36,10 +26,10 @@ while (opcao !== 0) {
     if (opcao === 1) {
         console.log(somar(a, b));
     } else if (opcao === 2) {
-        console.log(subtrair(a, b))
+        console.log(subtrair(a, b));
     } else if (opcao === 3) {
-        console.log(multiplicar(a, b))
+        console.log(multiplicar(a, b));
     } else if (opcao === 4) {
-        console.log(dividir(a, b))
-    } 
+        console.log(dividir(a, b));
+    }
 }
