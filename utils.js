@@ -33,4 +33,21 @@ function SalvarLog(operacao, a, b, resultado){
     console.log(`Operação registrada em ${path.basename(logPath)}`)
 }
 
-module.exports = {SalvarLog}
+function LerLog() {
+    const dataAtual = new Date();
+    const dataStr = dataAtual.toISOString().split("T")[0];
+    const logPath = path.join(logsDir, `log-${dataStr}.json`);
+
+    if (fs.existsSync(logPath)) {
+        const conteudo = fs.readFileSync(logPath, "utf-8");
+        const logs = JSON.parse(conteudo || "[]");
+        console.log("Logs registrados:");
+        logs.forEach((log, index) => {
+            console.log(`${index + 1}. Data: ${log.data}, Operação: ${log.operacao}, Valores: ${log.valores}, Resultado: ${log.resultado}`);
+        });
+    } else {
+        console.log("Nenhum log encontrado para a data atual.");
+    }
+}
+
+module.exports = { SalvarLog, LerLog };
