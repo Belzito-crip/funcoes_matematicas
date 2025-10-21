@@ -1,8 +1,10 @@
 const { somar, multiplicar, subtrair, dividir } = require('./operacoes_matematicas');
+const { SalvarLog }  = require('./utils');
 const prompt = require('prompt-sync')({ sigint: true });
 
 let opcao = -1;
-let a, b = 0
+let a, b, x = 0
+let c = []
 
 while (opcao !== 0) {
     console.log(
@@ -24,12 +26,19 @@ while (opcao !== 0) {
     b = parseInt(prompt('Escolha outro valor: '));
 
     if (opcao === 1) {
-        console.log(somar(a, b));
+        x = somar(a, b)
+        console.log(x);
     } else if (opcao === 2) {
-        console.log(subtrair(a, b));
+        x = subtrair(a, b)
+        console.log(x);
     } else if (opcao === 3) {
-        console.log(multiplicar(a, b));
+        x = multiplicar(a, b)
+        console.log(x);
     } else if (opcao === 4) {
-        console.log(dividir(a, b));
+        x = dividir(a, b)
+        console.log(x);
     }
+
+    //implementação de log
+    SalvarLog(opcao, a, b, x)
 }
