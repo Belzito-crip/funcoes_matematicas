@@ -76,5 +76,11 @@
     "operacao": "Multiplicação",
     "valores": "4 e 4",
     "resultado": 16
+  },
+  {
+    "data": "21/10/2025 11:52:53 PM (180)",
+    "operacao": "Multiplicação",
+    "valores": "845 e 48",
+    "resultado": 40560
   }
 ]
