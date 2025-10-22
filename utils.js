@@ -11,7 +11,11 @@ if(!fs.existsSync(logsDir)){
 
 function SalvarLog(operacao, a, b, resultado){
     const dataAtual = new Date();
-    const dataStr = dataAtual.toISOString().split("T")[0];
+    // usar data local (YYYY-MM-DD) para o nome do arquivo
+    const yyyy = dataAtual.getFullYear();
+    const mm = String(dataAtual.getMonth() + 1).padStart(2, '0');
+    const dd = String(dataAtual.getDate()).padStart(2, '0');
+    const dataStr = `${yyyy}-${mm}-${dd}`;
     const logPath = path.join(logsDir, `log-${dataStr}.json`);
 
     const novoRegistro = {
@@ -35,7 +39,11 @@ function SalvarLog(operacao, a, b, resultado){
 
 function LerLog() {
     const dataAtual = new Date();
-    const dataStr = dataAtual.toISOString().split("T")[0];
+    // usar data local (YYYY-MM-DD) para o nome do arquivo
+    const yyyy = dataAtual.getFullYear();
+    const mm = String(dataAtual.getMonth() + 1).padStart(2, '0');
+    const dd = String(dataAtual.getDate()).padStart(2, '0');
+    const dataStr = `${yyyy}-${mm}-${dd}`;
     const logPath = path.join(logsDir, `log-${dataStr}.json`);
 
     if (fs.existsSync(logPath)) {
