@@ -1,0 +1,62 @@
+[
+  {
+    "data": "28/10/2025 10:35:46 AM (180)",
+    "operacao": "Adição",
+    "valores": "8 e 2",
+    "resultado": 10
+  },
+  {
+    "data": "28/10/2025 10:39:28 AM (180)",
+    "operacao": "Divisão",
+    "valores": "8 e 2",
+    "resultado": 4
+  },
+  {
+    "data": "28/10/2025 10:39:35 AM (180)",
+    "operacao": "Adição",
+    "valores": "8 e 2",
+    "resultado": 10
+  },
+  {
+    "data": "28/10/2025 10:39:43 AM (180)",
+    "operacao": "Multiplicação",
+    "valores": "8 e 2",
+    "resultado": 16
+  },
+  {
+    "data": "28/10/2025 10:39:51 AM (180)",
+    "operacao": "Subtração",
+    "valores": "8 e 2",
+    "resultado": 6
+  },
+  {
+    "data": "28/10/2025 11:03:29 AM (180)",
+    "operacao": "Adição",
+    "valores": "5 e 3",
+    "resultado": 8
+  },
+  {
+    "data": "28/10/2025 11:04:40 AM (180)",
+    "operacao": "Adição",
+    "valores": "5 e 3",
+    "resultado": 8
+  },
+  {
+    "data": "28/10/2025 11:04:57 AM (180)",
+    "operacao": "Adição",
+    "valores": "18 e 3",
+    "resultado": 21
+  },
+  {
+    "data": "28/10/2025 11:06:16 AM (180)",
+    "operacao": "Subtração",
+    "valores": "18 e 3",
+    "resultado": 15
+  },
+  {
+    "data": "28/10/2025 11:06:27 AM (180)",
+    "operacao": "Multiplicação",
+    "valores": "18 e 3",
+    "resultado": 54
+  }
+]
