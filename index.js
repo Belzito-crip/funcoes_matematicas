@@ -3,9 +3,9 @@ const { SalvarLog, LerLog } = require('./utils');
 const prompt = require('prompt-sync')({ sigint: true });
 
 let opcao = -1;
-let a, b, x =0;
+let a, b, x = 0;
 
-while (opcao !== 0) {
+while (opcao != 0) {
     console.log(
         `
         1 - Somar

@@ -58,5 +58,95 @@
     "operacao": "Multiplicação",
     "valores": "18 e 3",
     "resultado": 54
+  },
+  {
+    "data": "28/10/2025 10:31:12 PM (180)",
+    "operacao": "Adição",
+    "valores": "10 e 5",
+    "resultado": 15
+  },
+  {
+    "data": "28/10/2025 10:31:37 PM (180)",
+    "operacao": "Subtração",
+    "valores": "10 e 5",
+    "resultado": 5
+  },
+  {
+    "data": "28/10/2025 10:31:44 PM (180)",
+    "operacao": "Multiplicação",
+    "valores": "10 e 5",
+    "resultado": 50
+  },
+  {
+    "data": "28/10/2025 10:31:50 PM (180)",
+    "operacao": "Divisão",
+    "valores": "10 e 5",
+    "resultado": 2
+  },
+  {
+    "data": "28/10/2025 10:41:45 PM (180)",
+    "operacao": "Adição",
+    "valores": "1 e 1",
+    "resultado": 2
+  },
+  {
+    "data": "28/10/2025 10:42:52 PM (180)",
+    "operacao": "Multiplicação",
+    "valores": "84 e 65",
+    "resultado": 5460
+  },
+  {
+    "data": "28/10/2025 10:43:11 PM (180)",
+    "operacao": "Divisão",
+    "valores": "4 e 0",
+    "resultado": "Valor de B incorreto"
+  },
+  {
+    "data": "28/10/2025 10:43:30 PM (180)",
+    "operacao": "Divisão",
+    "valores": "4 e 0",
+    "resultado": "Valor de B incorreto"
+  },
+  {
+    "data": "28/10/2025 11:02:19 PM (180)",
+    "operacao": "Adição",
+    "valores": "8 e 2",
+    "resultado": 10
+  },
+  {
+    "data": "28/10/2025 11:02:38 PM (180)",
+    "operacao": "Multiplicação",
+    "valores": "8 e 2",
+    "resultado": 16
+  },
+  {
+    "data": "28/10/2025 11:02:51 PM (180)",
+    "operacao": "Multiplicação",
+    "valores": "1555 e 8888",
+    "resultado": 13820840
+  },
+  {
+    "data": "28/10/2025 11:05:17 PM (180)",
+    "operacao": "Adição",
+    "valores": "18 e 3",
+    "resultado": 21
+  },
+  {
+    "data": "28/10/2025 11:05:59 PM (180)",
+    "operacao": "Adição",
+    "valores": "18 e 200",
+    "resultado": 218
+  },
+  {
+    "data": "28/10/2025 11:06:07 PM (180)",
+    "operacao": "Multiplicação",
+    "valores": "18 e 200",
+    "resultado": 3600
+  },
+  {
+    "data": "28/10/2025 11:07:25 PM (180)",
+    "operacao": "Divisão",
+    "valores": "18 e 0",
+    "resultado": "Valor de B é igual a 0"
   }
 ]

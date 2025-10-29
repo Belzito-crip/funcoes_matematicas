@@ -11,6 +11,9 @@ function subtrair(a, b){
 }
 
 function dividir(a, b){
+    if(b === 0){
+        return 'Valor de B é igual a 0'
+    }
     return a / b;
 }
 

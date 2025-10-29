@@ -51,7 +51,7 @@ function LerLog() {
         const logs = JSON.parse(conteudo || "[]");
         console.log("Logs registrados:");
         logs.forEach((log, index) => {
-            console.log = (`${index + 1}. Data: ${log.data}, Operação: ${log.operacao}, Valores: ${log.valores}, Resultado: ${log.resultado}`);
+            console.log(`${index + 1}. Data: ${log.data}, Operação: ${log.operacao}, Valores: ${log.valores}, Resultado: ${log.resultado}`);
         });
         return logs
     } else {

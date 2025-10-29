@@ -1,10 +1,10 @@
 const http = require('http');
-const dados = JSON.stringify({a: 18, b: 3});
+const dados = JSON.stringify({a: 18, b: 0});
 const payload = {
     hostname : "localhost",
     port     : 3000,
-    path     : "/logs",
-    method   : "GET",
+    path     : "/dividir",
+    method   : "POST",
     Headers  : {"Content-Type":"application/json", "Content-Lenght":Buffer.byteLength(dados)}
 };
 
