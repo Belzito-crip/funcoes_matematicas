@@ -1,0 +1,26 @@
+[
+  {
+    "data": "29/10/2025 02:08:28 AM (180)",
+    "operacao": "Multiplicação",
+    "valores": "NaN e NaN",
+    "resultado": null
+  },
+  {
+    "data": "29/10/2025 02:08:31 AM (180)",
+    "operacao": "Multiplicação",
+    "valores": "2 e 2",
+    "resultado": 4
+  },
+  {
+    "data": "29/10/2025 02:08:34 AM (180)",
+    "operacao": "Multiplicação",
+    "valores": "2 e 2",
+    "resultado": 4
+  },
+  {
+    "data": "29/10/2025 02:09:05 AM (180)",
+    "operacao": "Divisão",
+    "valores": "18 e 0",
+    "resultado": "Valor de B é igual a 0"
+  }
+]
